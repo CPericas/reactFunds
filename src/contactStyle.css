@@ -1,0 +1,16 @@
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #000000;
+  }
+
+  h3 {
+    color: rgb(176, 176, 176);
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.755);
+    margin-bottom: 15px;
+}

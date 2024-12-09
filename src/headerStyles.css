@@ -1,0 +1,31 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.name {
+    color: rgba(249, 5, 5, 0.823);
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(213, 213, 213, 0.512);
+    margin-bottom: 30px;
+}
